@@ -21,5 +21,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, CoordinatorLayout2Activity::class.java)
             startActivity(intent)
         }
+
+        val button3 = findViewById(R.id.coordinator3)
+        button3.setOnClickListener {
+            val intent = Intent(this, CoordinatorLayout3Activity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -5,11 +5,11 @@ import android.support.design.widget.AppBarLayout
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 
-class CoordinatorLayout2Activity : AppCompatActivity() {
+class CoordinatorLayout3Activity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_coordinator2)
+        setContentView(R.layout.activity_coordinator3)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(true)
 
