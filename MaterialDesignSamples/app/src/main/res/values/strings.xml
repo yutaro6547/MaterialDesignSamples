@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MaterialEample</string>
+    <string name="app_name">MaterialDesignSamples</string>
     <string name="zen">"Beautiful is better than ugly.\n\n"
         "Explicit is better than implicit.\n\n"
         "Simple is better than complex.\n\n"
