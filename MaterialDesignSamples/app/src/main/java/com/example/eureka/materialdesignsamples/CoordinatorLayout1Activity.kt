@@ -14,5 +14,7 @@ class CoordinatorLayout1Activity: AppCompatActivity() {
 
         val toolbar = findViewById(R.id.toolbar) as Toolbar
         setSupportActionBar(toolbar)
+        toolbar.navigationIcon = resources.getDrawable(R.drawable.ic_arrow_back_white)
+        toolbar.setNavigationOnClickListener { finish() }
     }
 }
