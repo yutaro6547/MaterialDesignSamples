@@ -22,7 +22,7 @@
             app:collapsedTitleTextAppearance="@style/TextAppearance.Design.CollapsingToolbar.Collapsed"
             app:expandedTitleTextAppearance="@style/TextAppearance.Design.CollapsingToolbar.Expanded">
 
-
+            // ここに追加
             <ImageView
                 android:id="@+id/image"
                 android:layout_width="match_parent"
